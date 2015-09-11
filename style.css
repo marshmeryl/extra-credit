@@ -5,152 +5,176 @@
  * html5doctor.com/html-5-reset-stylesheet/
  */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+ html, body, div, span, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+ small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
 
-blockquote, q { quotes: none; }
+ blockquote, q { quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after { content: ""; content: none; }
+ blockquote:before, blockquote:after,
+ q:before, q:after { content: ""; content: none; }
 
-ins { background-color: #ff9; color: #000; text-decoration: none; }
+ ins { background-color: #ff9; color: #000; text-decoration: none; }
 
-mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+ mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
 
-del { text-decoration: line-through; }
+ del { text-decoration: line-through; }
 
-abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+ abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
 
-table { border-collapse: collapse; border-spacing: 0; }
+ table { border-collapse: collapse; border-spacing: 0; }
 
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 
-input, select { vertical-align: middle; }
+ input, select { vertical-align: middle; }
 
-body {
-	font-family: Noticia Text, serif;
-	text-align: center;
-}
+ body {
+ 	font-family: Noticia Text, serif;
+ 	text-align: center;
+ }
 
-div {
-/*	display: block;*/
-}
+ div {
+ 	/*	display: block;*/
+ }
 
-#main {
-	background-color: #fff0da;
-}
+ #main {
+ 	background-color: #fff0da;
+ }
 
-#sign-up {
-	background-color: #fffffe;
-	width: 300px;
-	display: block;
-}
+ #sign-up {
+ 	background-color: #fffffe;
+ 	width: 600px;
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin: 0 auto;
+ }
 
-#signup {
-	color: black;
-	font-family: Lobster, cursive;
-	text-align: center;
-}
+ #signup {
+ 	color: black;
+ 	font-family: Lobster, cursive;
+ 	padding: 20px 0 20px 0;
+ }
 
-#thirty-days {
-	font-family: Helvetica;
-    font-weight: bold;
-	color: #f6515d
-	padding: 10px 0 0 0;
-}
+ #thirty-days {
+ 	font-family: Helvetica;
+ 	font-weight: bold;
+ 	color: #f6515d
+ 	padding: 10px 0 0 0;
+ }
 
-#recent-posts {
-	position: relative;
-    top: 50%;
-	display: inline-block;
-	background-color: #f6515d;
-	padding: 20px;
-}
+ #mce-EMAIL {
+ 	font-family: Helvetica;
+ 	width: 300px;
+ 	height: 30px;
+ 	border-bottom-left-radius: 5px;
+ 	border-top-left-radius: 5px;
+ 	background-color: #fff0da;
+ }
 
-#post-one, #post-two, #post-three {
-	background-color: #f6515d;
-	padding: 20px;
-	width: 250px;
-	float: left;
-	text-align: left;
-}
+ #mc-embedded-subscribe {
+ 	font-family: Helvetica;
+ 	color: white;
+ 	font-weight: bold;
+ 	background-color: #DF5555;
+ 	width: 120px;
+ 	height: 35px;
+ 	border-bottom-right-radius: 5px;
+ 	border-top-right-radius: 5px;
+ }
 
-#footer {
-	background-color: #333333;
-	display: inline-block;
-}
+ #input {
+ 	padding: 20px 0 20px 0;
+ }
 
-#about, #contact {
-	background-color: #333333;
-	padding: 30px;
-	color: white;
-	font-family: Lobster, cursive;
-	font-size: 20px;
-	float: left;
-	text-align: left;
-	width: 50%;
-}
+ #recent-posts {
+ 	position: relative;
+ 	top: 50%;
+ 	display: inline-block;
+ 	background-color: #f6515d;
+ 	padding: 20px;
+ }
 
-#copyright {
-	background-color: #f6515d;
-}
+ #post-one, #post-two, #post-three {
+ 	background-color: #f6515d;
+ 	padding: 20px;
+ 	width: 250px;
+ 	float: left;
+ 	text-align: left;
+ }
 
-h1 {
-	display: inline-block;
-	width: 600px;
-	color: #f6515d;
-    font-weight: bold;
-    text-align: center;
-	padding: 10px 0 0 0;
-}
+ #footer {
+ 	background-color: #333333;
+ 	display: inline-block;
+ }
 
-h2 {
-    text-shadow: 1px 1px gray;
-	text-align: center;
-	font-family: Lobster, cursive;
-	font-size: 24px;
-	padding: 10px 0 0 0;
-}
+ #about, #contact {
+ 	background-color: #333333;
+ 	padding: 30px;
+ 	color: white;
+ 	font-family: Lobster, cursive;
+ 	font-size: 20px;
+ 	float: left;
+ 	text-align: left;
+ 	width: 50%;
+ }
 
-h3 {
-    font-weight: bold;
-}
+ #copyright {
+ 	background-color: #f6515d;
+ }
 
-h4 {	
-    text-shadow: 1px 1px gray;
-}
+ h1 {
+ 	display: block;
+ 	color: #f6515d;
+ 	font-weight: bold;
+ 	text-align: center;
+ }
 
-a {
-	color: white;
-}
+ h2 {
+ 	text-shadow: 1px 1px gray;
+ 	text-align: center;
+ 	font-family: Lobster, cursive;
+ 	font-size: 24px;
+ 	padding: 10px 0 0 0;
+ }
 
-p {
-	padding: 10px 0 0 0;
-	font-family: Georgia;
-	font-size: 16px;
-}
+ h3 {
+ 	font-weight: bold;
+ }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+ h4 {	
+ 	text-shadow: 1px 1px gray;
+ }
+
+ a {
+ 	color: white;
+ }
+
+ p {
+ 	padding: 10px 0 0 0;
+ 	font-family: Georgia;
+ 	font-size: 16px;
+ }
+
+ img {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
