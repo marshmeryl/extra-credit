@@ -184,7 +184,7 @@
 }
 
 .post p + p {
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .clear {
@@ -254,7 +254,7 @@ h4 {
 	margin: 5px 0;
 }
 
-#input-contact #message {
+#input-contact #message { /*Input needs to be aligned top left*/
 	width: 464px;
 	line-height: 115px;
 	padding: 0 20px;
@@ -278,7 +278,7 @@ h4 {
 	float: right;
 }
 
-#copyright {
+#copyright { /*Needs padding on top and bottom*/
 	background-color: #f6515d;
 	text-align: center;
 	font-family: "Noticia Text", Arial, sans-serif;
