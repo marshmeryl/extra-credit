@@ -193,7 +193,7 @@
 /*FOOTER*/
 #footer {
 	background: #333;
-	color: #fff;
+	color: #fff0da;
 }
 
 .footer-content {
@@ -210,16 +210,34 @@ h4 {
 	padding-bottom: 25px;
 }
 
-#input-contact #name, #email {
+#input-contact {
+	display: inline-block;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#input-contact #name {
 	width: 228px;
 	line-height: 32px;
 	padding: 0 20px;
 	background: #fefcf2;
 	border: 1px solid #d5cab8;
 	border-radius: 2px;
-	font-size: 20px;
+	font-size: 18px;
 	box-shadow: inset 0px 0px 3px #e6e3d1;
-	position: relative;
+	margin: 5px 0;
+	margin-right: 3px;
+}
+
+#input-contact #email {
+	width: 228px;
+	line-height: 32px;
+	padding: 0 20px;
+	background: #fefcf2;
+	border: 1px solid #d5cab8;
+	border-radius: 2px;
+	font-size: 18px;
+	box-shadow: inset 0px 0px 3px #e6e3d1;
+	margin: 5px 0;
 }
 
 #input-contact #reason {
@@ -229,8 +247,9 @@ h4 {
 	background: #fefcf2;
 	border: 1px solid #d5cab8;
 	border-radius: 2px;
-	font-size: 20px;
+	font-size: 18px;
 	box-shadow: inset 0px 0px 3px #e6e3d1;
+	margin: 5px 0;
 }
 
 #input-contact #message {
@@ -240,18 +259,21 @@ h4 {
 	background: #fefcf2;
 	border: 1px solid #d5cab8;
 	border-radius: 2px;
-	font-size: 20px;
+	font-size: 18px;
 	box-shadow: inset 0px 0px 3px #e6e3d1;
+	margin: 5px 0;
 }
 
 #input-contact #send-message {
 	background-color: #dcc199;
-	width: 228px;
+	width: 148px;
 	height: 32px;
 	position: relative;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	border-radius: 2px;
+	margin: 5px 0;
+	float: right;
 }
 
 #copyright {
