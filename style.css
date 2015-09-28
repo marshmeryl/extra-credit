@@ -146,7 +146,6 @@
 }
 
 /*RECENT POSTS*/
-
 #recent-posts {
 	background-color: #f6515d;
 	font: normal 25px/1.5 "Lobster", Georgia, sans-serif;
@@ -208,6 +207,51 @@
 
 h4 {
 	font: normal 23px/1.5 "Lobster", Georgia, sans-serif;
+	padding-bottom: 25px;
+}
+
+#input-contact #name, #email {
+	width: 228px;
+	line-height: 32px;
+	padding: 0 20px;
+	background: #fefcf2;
+	border: 1px solid #d5cab8;
+	border-radius: 2px;
+	font-size: 20px;
+	box-shadow: inset 0px 0px 3px #e6e3d1;
+	position: relative;
+}
+
+#input-contact #reason {
+	width: 464px;
+	line-height: 32px;
+	padding: 0 20px;
+	background: #fefcf2;
+	border: 1px solid #d5cab8;
+	border-radius: 2px;
+	font-size: 20px;
+	box-shadow: inset 0px 0px 3px #e6e3d1;
+}
+
+#input-contact #message {
+	width: 464px;
+	line-height: 115px;
+	padding: 0 20px;
+	background: #fefcf2;
+	border: 1px solid #d5cab8;
+	border-radius: 2px;
+	font-size: 20px;
+	box-shadow: inset 0px 0px 3px #e6e3d1;
+}
+
+#input-contact #send-message {
+	background-color: #dcc199;
+	width: 228px;
+	height: 32px;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 2px;
 }
 
 #copyright {
