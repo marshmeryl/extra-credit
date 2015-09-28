@@ -35,7 +35,7 @@
 #logo {
 	width: 584px;
 	margin: 0 auto;
-	padding: 36px 0 64px 0;
+	padding: 0 0 64px 0;
 	display: block;
 }
 
@@ -153,6 +153,7 @@
 
 #recent-posts h2 {
 	font: normal 25px/1.5 "Lobster", Georgia, sans-serif;
+    text-shadow: 1px 1px #a42c35;
 }
 
 .post {
@@ -208,6 +209,7 @@
 h4 {
 	font: normal 23px/1.5 "Lobster", Georgia, sans-serif;
 	padding-bottom: 25px;
+    text-shadow: 1px 1px #978a79;
 }
 
 #input-contact {
