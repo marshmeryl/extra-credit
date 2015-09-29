@@ -40,8 +40,8 @@
 }
 
 #header h1 {
-	font: bold 26px/1.8846 "Noticia Text",
-	Georgia, sans-serif;
+	font: bold 26px/1.8846 "Noticia Text", Georgia, sans-serif;
+	color: #f6515d;
 	text-align: center;
 	padding: 0 54px;
 	margin-bottom: 73px;
